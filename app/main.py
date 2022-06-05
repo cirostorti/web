@@ -15,3 +15,5 @@ def flag():
         return redirect("http://ssrf.chall.seetf.sg:1337/flag", code=302)
 
 
+if __name__ == '__main__':
+    app.run(host="0.0.0.0", port=80, threaded=True)
