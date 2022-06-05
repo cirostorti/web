@@ -13,5 +13,5 @@ def flag():
 
     else:
         status = 0
-        return redirect("http://ssrf.chall.seetf.sg:1337/flag", code=302)
+        return redirect("http://ssrf.chall.seetf.sg:1337/flag", code=301)
 
